@@ -187,6 +187,21 @@ p {
   font-size: 1.5em;
   text-decoration: none;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a:hover {
+  background: #5785e7;
+  color: #ffffff;
+  border-radius: 25px;
+}
+.container {
+  margin-top: 30px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

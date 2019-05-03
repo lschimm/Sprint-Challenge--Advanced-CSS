@@ -1,1 +1,30 @@
 // Mixins Here
+
+.display-justify {
+    display: flex;
+    justify-content: center;
+}
+
+.display-center {
+    display: flex;
+    align-content: center;
+}
+
+//Parametric Mixins
+
+.custom-layout(@b, @s, @h){
+    border: @b @s @h;
+    color: @h;
+    background-color: black;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 2.5em;
+}
+
+.custom-hover(@a, @s){
+    border: @a;
+    color: @s;
+    background-color: white;
+}
